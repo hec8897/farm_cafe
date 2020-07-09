@@ -7,22 +7,6 @@
     <router-view/>
   </div>
 </template>
-<script>
-import axios from 'axios';
-
-export default {
-    created() {
-                  const BaseData = "http://www.wssw.kr/woosung_api/support.data.php"
-                  axios.get(BaseData,{
-                
-                  })
-                  .then((result)=>{
-                    console.log(result)
-                  })
-              },
-  
-}
-</script>
 
 <style lang="scss">
 #app {
