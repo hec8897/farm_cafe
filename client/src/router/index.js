@@ -1,4 +1,5 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm.js';
+
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
@@ -8,6 +9,11 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
+    component: Home
+  },
+  {
+    path: '/123',
+    name: 'test',
     component: Home
   },
   {

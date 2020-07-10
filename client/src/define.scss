@@ -1,0 +1,15 @@
+$black:#444;
+$white:#fff;
+$PointColor:#4682B4;
+$redPoint:#d90125;
+$MainColor:#87CEFA;
+$lightgray:#f9fafc;
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media (max-width:1200px) {
+        max-width: 98%;
+    }
+}
