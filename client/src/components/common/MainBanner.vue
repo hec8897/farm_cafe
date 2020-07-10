@@ -4,7 +4,7 @@
     <div>
       <b-jumbotron v-bind:header="mode" lead="혼자하면 힘들지만 함께하면 든든합니다">
         <p>전국 농자재 판매 관리인 커뮤니티 <b>'팜카페'</b></p>
-        <b-button variant="primary" href="#">로그인</b-button>
+        <b-button variant="primary" href="#" v-b-modal.modal-1>로그인</b-button>
       </b-jumbotron>
     </div>
 </template>
