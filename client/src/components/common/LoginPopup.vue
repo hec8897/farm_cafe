@@ -24,6 +24,7 @@
 </template>
 
 <script>
+
 export default {
   data(){
     return{
@@ -31,9 +32,13 @@ export default {
     }
   }
 }
+
 </script>
 
 <style lang="scss">
+.modal-content{
+  border-radius:0;
+}
   .modal-dialog{
     @media (max-width:1024px){
         width:80%;
